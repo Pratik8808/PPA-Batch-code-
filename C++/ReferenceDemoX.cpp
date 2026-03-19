@@ -13,6 +13,11 @@ int main()
     int &y=no;
     //We can create Reference to a reference 
     int &z=y;
+    
+    //we can create reference to the Pointer
+    int *p=&no;
+    int *(&q)=p;
+    
 
 
 return 0;
