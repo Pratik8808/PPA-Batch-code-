@@ -37,7 +37,7 @@ class Derived extends Base
 }
 
 
-public class Single{
+public class SingleGc{
 
 
     public static void main (String A[])
@@ -48,7 +48,10 @@ public class Single{
         System.out.println(dobj.j);
       dobj.fun();
       dobj.gun();
+      dobj=null;
+      System.gc();
         System.out.println("End of the main");
+        
 
  
     }
