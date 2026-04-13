@@ -1,0 +1,21 @@
+import java.util.*;
+
+class Divison{
+
+    public static void main (String A[])
+    {
+      Scanner sobj=new Scanner(System.in);
+      float No1=0.0f;
+       float No2=0.0f;
+      float Ans=0.0f;
+      System.out.println("Enter first number :");
+      No1=sobj.nextFloat();
+      System.out.println("Enter the Seoond Number:");
+      No2=sobj.nextFloat();
+
+      Ans=No1/No2;
+      System.out.println("Division is :"+Ans);
+
+        
+    }
+}
