@@ -7,7 +7,7 @@ class BufferIOX
   System.out.println("Enter your Name :");
   String name=bobj.readLine(); // checked Excpetion
 
-  System.out.println("Hello  " +name);
+  System.out.println("Hello   " +name);
 }
 
 }
